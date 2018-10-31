@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "tk12eep2018",
+=======
+  "name": "client",
+>>>>>>> 80dd7f0ba2fcd040c57d099a2a576e685bc76d4f
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,4 +17,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 80dd7f0ba2fcd040c57d099a2a576e685bc76d4f
