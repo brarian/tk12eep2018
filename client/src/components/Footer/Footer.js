@@ -5,7 +5,7 @@ const Footer = () => {
  const FooterListItems = footerItems.map((item, i) => {
   return (
    <li key={i}>
-    <a href={item.link}>{item.text} <img src={item.src} /></a>
+    <a href={item.link}>{item.text} <img alt="album art" src={item.src} /></a>
    </li>
   );
  });
