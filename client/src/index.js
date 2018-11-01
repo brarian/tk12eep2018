@@ -23,7 +23,7 @@ const Site = () => {
   return (
   <Router>
     <Switch>
-      <Route exact path="/" component={Header} />
+      <Route exact path="/" component={ErrorPage} />
       <Route  component={ErrorPage} />
     </Switch>
   </Router>
