@@ -2,38 +2,38 @@ const socialLinks = [
   {
     link: "https://www.patreon.com/pioslabs",
     title: "Support the show and get updates on Patreon (opens in new window)",
-    img: "/img/icons/patreon_logo.png",
+    img: "/icons/patreon_logo.png",
     alt: "Icon for Patreon"
   },
   {
     link: "http://ko-fi.com/U6U3AG24",
     title: "Buy us a coffee (opens in new window)",
-    img: "/img/icons/kofi.png",
+    img: "/icons/kofi.png",
     alt: "Icon for Ko-fi"
   },
   {
     link: "https://www.facebook.com/K12EngineeringEducation/",
     title: "Like the show on Facebook (opens in new window)",
-    img: "/img/icons/fb.png",
+    img: "/icons/fb.png",
     alt: "Icon for Facebook"
   },
   {
     class: "bg-white",
     link: "https://twitter.com/K12Engineering",
     title: "Tweet the show (opens in new window)",
-    img: "/img/icons/twitter_blue.png",
+    img: "/icons/twitter_blue.png",
     alt: "Icon for Twitter"
   },
   {
     link: "https://soundcloud.com/piuswong",
     title: "Comment on SoundCloud (opens in new window)",
-    img: "/img/icons/sc_orangebg.png",
+    img: "/icons/sc_orangebg.png",
     alt: "Icon for SoundCloud"
   },
   {
     link: "https://www.reddit.com/r/EngineeringEducation/",
     title: "Discuss on Reddit: r/EngineeringEducation (opens in new window)",
-    img: "/img/icons/reddit_orange.png",
+    img: "/icons/reddit_orange.png",
     alt: "Icon for Reddit"
   },
   {
@@ -51,13 +51,13 @@ const socialLinks = [
   {
     link: "https://www.youtube.com/channel/UC7hifPdoqjbI5zXSLYnrr4Q",
     title: "Subscribe to the YouTube channel (opens in new window)",
-    img: "/img/icons/yt.png",
+    img: "/icons/yt.png",
     alt: "Icon for YouTube"
   },
   {
     link: "mailto:info@k12engineering.net",
     title: "Email the podcast",
-    img: "/img/icons/email_red.png",
+    img: "/icons/email_red.png",
     alt: "Icon for email"
   }
 ]

@@ -6,7 +6,7 @@ const SubscribeList = () => {
     return (
       <li key={i}>
         <a href={item.link} title={item.title} target="_blank">
-          <img src={item.image} alt={item.alt} />
+          <img src={item.img} alt={item.alt} />
         </a>
       </li>
     );
