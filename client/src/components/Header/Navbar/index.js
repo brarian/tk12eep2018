@@ -29,7 +29,7 @@ class Navbar extends Component {
             :
             this.state.navAboutActive
             ?
-            "nav-minimized nav-listen nav-item-container"
+            "nav-item-minimized nav-listen nav-item-container"
             :
             "nav-listen nav-item-container"}
           id="nav-listen">
@@ -48,7 +48,7 @@ class Navbar extends Component {
                 :
                 this.state.navListenActive
                 ?
-                "nav-minimized nav-about nav-item-container"
+                "nav-item-minimized nav-about nav-item-container"
                 :
                 "nav-about nav-item-container"}
               id="nav-about">

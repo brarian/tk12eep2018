@@ -35,6 +35,10 @@ a:hover, a:focus, a:active {
   color: #ff3399; /* logo pink */
 }
 
+ul {
+  padding: 0;
+}
+
 /* Header Branding */
 header .branding {
   text-transform: uppercase;
@@ -133,7 +137,7 @@ header .link-list-container a {
 header .link-list-container a,
 header .icon-list-container a {
 }
-/* .nav-main-item,
+.nav-main-item,
 .nav-main-item .nav-main-item-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,12 +148,12 @@ header .icon-list-container a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-} */
-.nav-main-item,
+}
+/* .nav-main-item,
 .nav-main-item-title,
 .nav-main-item-icon {
   display: inline-block;
-}
+} */
 .nav-main-item {
   font-family: 'Anton', sans-serif;
   font-size: 2em;
