@@ -5,7 +5,7 @@ import Header from './components/Header/index'
 import NotFound from "./components/NotFound/NotFound";
 import Footer from "./components/Footer/Footer"
 import registerServiceWorker from './registerServiceWorker';
-import Title from "./components/SinglePage/Title";
+import EpisodePage from "./components/SinglePage/EpisodePage";
 
 class ErrorPage extends Component {
   render() {
@@ -25,7 +25,7 @@ class SingleEpisodePage extends Component {
     return (
       <div>
         <Header />
-        <Title />
+        <EpisodePage />
         <Footer />
       </div>
     )

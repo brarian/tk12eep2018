@@ -1,24 +1,9 @@
-import React, {Component} from 'react';
-import episodeData from "../episodeData";
-import ShowNotes from "../ShowNotes";
-import RelevantLinks from '../RelevantLinks';
+import React from 'react';
 
-class Title extends Component {
- state = {
-  episodes: [...episodeData]
- };
-
- render() {
- const  data = this.state;
- console.log(data);
-  return (
-   <div>
-      <h1> {data.episodes[0].title} </h1>
-      <ShowNotes episode={data.episodes} /> 
-      <RelevantLinks episode={data.episodes}/>
-   </div>
-  )
- }
+const Title = (props) => {
+ return (
+  <h2>{props.episode[0].title}</h2>
+ )
 }
 
 export default Title
