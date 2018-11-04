@@ -1,14 +1,12 @@
 {
-<<<<<<< HEAD
-  "name": "tk12eep2018",
-=======
   "name": "client",
->>>>>>> 80dd7f0ba2fcd040c57d099a2a576e685bc76d4f
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "moment": "^2.22.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5"
   },
   "scripts": {
@@ -17,8 +15,4 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 80dd7f0ba2fcd040c57d099a2a576e685bc76d4f
