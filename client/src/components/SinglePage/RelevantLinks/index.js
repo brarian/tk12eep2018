@@ -11,7 +11,9 @@ const RelevantLinks = props => {
     });
   
     return (
-     <div>
+     <div style={{
+        border: '2px solid black',
+        margin: '1px'   }}>
       Related to this episode:
       {LinkItems}
      </div>

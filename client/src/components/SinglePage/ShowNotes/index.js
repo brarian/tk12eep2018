@@ -2,10 +2,11 @@ import React from 'react';
 import moment from "moment";
 
 const ShowNotes = (props) => {
- console.log("show notes", props.episode);
  let date = moment(props.episode[0].date.released).format('LL')
  return (
-  <div>
+  <div style={{
+   border: '2px solid black',
+   margin: '1px'   }}>
    <h3>Show Notes</h3>
    <p>Released {date}</p>
    <p>Guest: {props.episode[0].guests.map((guest, i)=> <span key={i}>{guest}<span>&nbsp;</span></span>)} </p>
