@@ -22,6 +22,14 @@ class EpisodePage extends Component {
 
  render() {
   const data = this.state;
+  let show =  null;
+  if (this.state.showTranscript){
+   show  = ( 
+    <div> 
+     <Transcript /> 
+    </div>
+   )
+  }
    return (
     <div style={{
      border: '2px solid black',
@@ -30,11 +38,8 @@ class EpisodePage extends Component {
        <ShowNotes episode={data.episodes} /> 
        <RelevantLinks episode={data.episodes}/>
        <Closer episode={data.episodes}/>
-       <TranscriptButton click={this.toggleShow}> 
-        { this.state.showTranscript === true ?
-           <div> <Transcript /> </div> : null
-        }
-       </TranscriptButton>
+       <TranscriptButton click={this.toggleShow}/> 
+{show}
     </div>
    )
   }
