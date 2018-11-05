@@ -39,7 +39,7 @@ class EpisodePage extends Component {
        <RelevantLinks episode={data.episodes}/>
        <Closer episode={data.episodes}/>
        <TranscriptButton click={this.toggleShow}/> 
-{show}
+        {show}
     </div>
    )
   }
