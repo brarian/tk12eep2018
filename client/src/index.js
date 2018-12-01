@@ -6,7 +6,7 @@ import NotFound from "./components/NotFound/NotFound";
 import Footer from "./components/Footer/Footer"
 import registerServiceWorker from './registerServiceWorker';
 import EpisodePage from "./components/SinglePage/EpisodePage";
-
+import LatestEpisodes from "./components/LatestEpisodes/index";
 class ErrorPage extends Component {
   render() {
     return (
@@ -27,6 +27,7 @@ class SingleEpisodePage extends Component {
         <Header />
         <EpisodePage />
         <Footer />
+        <LatestEpisodes />
       </div>
     )
   }
